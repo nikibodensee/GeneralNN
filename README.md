@@ -7,4 +7,4 @@ Please ignore many comments, there are some functionalities that are not properl
 
 All the seen code is completely written by me and gives a brief overview about my coding and understanding of neural networks.
 
-The mathematical research to develop the algorithms has been done by my father and I. 
+The mathematical research to develop the algorithms has been done by my father and me. 
