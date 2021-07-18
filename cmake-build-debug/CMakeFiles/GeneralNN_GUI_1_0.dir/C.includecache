@@ -6,93 +6,13 @@
 
 #IncludeRegexTransform: 
 
-N:/A_Projects/GeneralNN/0.0. main.c
+N:/A_Projects/GeneralNN_GIT/0.0. main.c
 stdio.h
 -
 time.h
 -
 main.h
-N:/A_Projects/GeneralNN/main.h
+N:/A_Projects/GeneralNN_GIT/main.h
 
-N:/A_Projects/GeneralNN/1.0. weightinit.c
-stdio.h
--
-stdlib.h
--
-time.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/1.1. readweights.c
-stdio.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/1.2. saveweights.c
-stdio.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/2.0. readinp.c
-stdio.h
--
-stdlib.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/3.0. query_inputlayer.c
-math.h
--
-time.h
--
-stdlib.h
--
-stdio.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/3.1. query_layerX.c
-stdio.h
--
-math.h
--
-time.h
--
-stdlib.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/3.2. query_outputlayer.c
-stdio.h
--
-math.h
--
-time.h
--
-stdlib.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/4.0. teach.c
-stdio.h
--
-math.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/4.1. pattern_missmatch.c
-stdio.h
--
-main.h
-N:/A_Projects/GeneralNN/main.h
-
-N:/A_Projects/GeneralNN/main.h
+N:/A_Projects/GeneralNN_GIT/main.h
 

@@ -137,13 +137,13 @@ int main (
 //	hidden_nodes[4] = 600;
     output_nodes = 36;        // Anzahl der Output-Units im Netz, folglich Anzahl an verschiedenen Wörtern
 
-    epoche = 100;							// Anzahl der Lerndurchläufe
-    mustz = 17000;					// Anzahl der abgespeicherten Wortsequenzen
+    epoche = 10;							// Anzahl der Lerndurchläufe
+    mustz = 100;					// Anzahl der abgespeicherten Wortsequenzen
     learnr = 0.1;                            // Lernrate
     dop_i = 0;					// Dropout probability Input-Layer (< dop_i = 0)
     dop_h = 0;				// Dropout probability Hidden-Layer (< dop_h = 0)
     filenameinput =
-            "N:\\A_Projects\\GeneralNN_GUI_1.0\\isi_lerndaten_17k_mfcc_39x39.csv";
+            "isi_lerndaten_17k_mfcc_39x39.csv";
     filenameweight =
             "NensysWeights1.0.txt";
 
@@ -177,7 +177,7 @@ int main (
 //			printf("%d\n",m);
         }
 
-        printf("Lernen beginnt");
+        printf("Lernen beginnt\n");
 
         //-- Lernen des Netzes beginnt
         for (e = 1; e <= epoche; e++) {
