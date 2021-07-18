@@ -102,29 +102,7 @@ void saveweights();
 
 void weightinit();
 
-int main (
-//		int argumenten_zaehler, char *argumenten_vektor[]
-){
-
-    // FOLLOWING ONLY UNCOMMENT IF PROGRAM IS CALLED BY ANOTHER PROGRAM
-
-//	choice = atoi(argumenten_vektor[1]);							// Auswahl Verfahren: 1 = neu lernen, 2 = weiter lernen, 3 = query
-//
-//	input_nodes = atoi(argumenten_vektor[2]);						// Länge jedes Wortes, Anzahl Input-Units (39*39 bei lerndaten Andi)(39*37 bei selbst erstellten Lerndaten)
-//	amounthiddenlayers = atoi(argumenten_vektor[3]);
-//	int count1 = 0;
-//	for(int a = 4; a < amounthiddenlayers + 4; a++) {
-//	hidden_nodes[count1] = atoi(argumenten_vektor[a]);						// Anzahl der Hidden-Units in der ersten Schicht
-//	count1++;}
-//	output_nodes = atoi(argumenten_vektor[argumenten_zaehler-7]);				        // Anzahl der Output-Units im Netz, folglich Anzahl an verschiedenen Wörtern
-//
-//	epoche = atoi(argumenten_vektor[argumenten_zaehler-6]);							// Anzahl der Lerndurchläufe
-//	mustz = atoi(argumenten_vektor[argumenten_zaehler-5]);								// Anzahl der abgespeicherten Wortsequenzen
-//	learnr = atof(argumenten_vektor[argumenten_zaehler-4]);                            // Lernrate
-//	dop_i = atof(argumenten_vektor[argumenten_zaehler-3]);						        // Dropout probability Input-Layer (< dop_i = 0)
-//	dop_h = atof(argumenten_vektor[argumenten_zaehler-2]);					        // Dropout probability Hidden-Layer (< dop_h = 0)
-//	filenameinput = argumenten_vektor[argumenten_zaehler-1];
-//	filenameweight = argumenten_vektor[argumenten_zaehler];
+int main (){
 
     choice = 1;	// Auswahl Verfahren: 1 = neu lernen, 2 = weiter lernen, 3 = query
 
